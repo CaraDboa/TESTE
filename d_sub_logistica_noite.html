@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+  <link rel="stylesheet" href="hora.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body data-turma="INST">
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>19:00 - 19:35</td>
+        <td class="editavel" data-id="INST_q">Gestão de Custo</td>
+        <td class="editavel" data-id="INST_w">Gestão de Trans.</td>
+        <td class="editavel" data-id="INST_e">Gestão de Pess.</td>
+        <td class="editavel" data-id="INST_r"></td>
+        <td class="editavel" data-id="INST_t">Espanhol</td>
+      </tr>
+      <tr>
+        <td>19:35 - 20:10</td>
+        <td class="editavel" data-id="INST_y">Gestão de Custo</td>
+        <td class="editavel" data-id="INST_u">Gestão de Trans.</td>
+        <td class="editavel" data-id="INST_i">Gestão de Pess.</td>
+        <td class="editavel" data-id="INST_o">S. Sáude e Seg. TR.</td>
+        <td class="editavel" data-id="INST_p">Espanhol</td>
+      </tr>
+      <tr>
+        <td>20:10 - 20:45</td>
+        <td class="editavel" data-id="INST_a">Gestão de Custo</td>
+        <td class="editavel" data-id="INST_s">Gestão de Trans.</td>
+        <td class="editavel" data-id="INST_d">Gestão de Pess.</td>
+        <td class="editavel" data-id="INST_f">Saúde e Seg. TR.</td>
+        <td class="editavel" data-id="INST_g">Informática</td>
+      </tr>
+      <tr>
+        <td>20:45 - 21:20</td>
+        <td class="editavel" data-id="INST_h">Legislação Aplicada</td>
+        <td class="editavel" data-id="INST_j">Gestão de Distr.</td>
+        <td class="editavel" data-id="INST_k">Projeto Int.</td>
+        <td class="editavel" data-id="INST_l">Estatística Aplicada</td>
+        <td class="editavel" data-id="INST_z">Informática</td>
+      </tr>
+      <tr>
+        <td>21:20 - 21:55</td>
+        <td class="editavel" data-id="INST_x">Legislação Aplicada</td>
+        <td class="editavel" data-id="INST_c">Gestão de Distr.</td>
+        <td class="editavel" data-id="INST_v">Projeto Int.</td>
+        <td class="editavel" data-id="INST_b">Estatística Aplicada</td>
+        <td class="editavel" data-id="INST_n">Informática</td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+ 
+</body>
+</html>

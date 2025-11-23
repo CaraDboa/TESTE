@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Badeen+Display&family=Momo+Trust+Display&display=swap');
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #0f009744, #08007c);
+  margin: 0;
+  padding: 20px;
+}
+
+img {
+  max-width: 280px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+
+.painel-botoes {
+  margin-bottom: 20px;
+}
+
+.painel-botoes button {
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.painel-botoes button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button[data-cor="vermelho"] {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button[data-cor="amarelo"] {
+  background-color: #f1c40f;
+  color: black;
+}
+
+button[data-cor="nenhum"] {
+  background-color: #bdc3c7;
+  color: black;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  min-width: 100px;
+}
+
+th {
+  background-color: #000dff;
+  color: white;
+}
+
+.intervalo td {
+   background: red;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+  color: red;
+
+ .tabela-container {
+  overflow-x: auto;
+  width: 100%;
+  }
+}
+
+.editavel {
+  cursor: pointer;
+  outline: none;
+}
+
+.editavel:hover {
+  background-color: #f1f1f1;
+}
+
+   
+@media only screen and (max-width: 800px){
+    body{
+        flex-direction: column;
+    }
+    
+      .painel-botoes{
+        width: 100%;
+        height: auto;
+    }
+    .painel-botoes button{
+        width: 100%;
+        height: auto;
+    }
+
+  
+    .texto-sobre-img{
+          width: 100%;
+        height: auto;
+    
+    }
+    .login{
+        width: 100%;
+    }
+}   

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+  <link rel="stylesheet" href="hora.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td >13:20 - 14:00</td>
+        <td class="editavel" data-id="AD2T_q">Geografia</td>
+        <td class="editavel" data-id="AD2T_w">Gestão Qual.</td>
+        <td class="editavel" data-id="AD2T_e">Matemática</td>
+        <td class="editavel" data-id="AD2T_r">Português</td>
+        <td class="editavel" data-id="AD2T_t">Matemática</td>
+      </tr>
+      <tr>
+        <td >14:00 - 14:40</td>
+        <td class="editavel" data-id="AD2T_y">Geografia</td>
+        <td class="editavel" data-id="AD2T_u">Gestão Qual.</td>
+        <td class="editavel" data-id="AD2T_i">Matemática</td>
+        <td class="editavel" data-id="AD2T_o">Português</td>
+        <td class="editavel" data-id="AD2T_p">Matemática</td>
+      </tr>
+      <tr>
+        <td >14:40 - 15:20</td>
+        <td class="editavel" data-id="AD2T_a">Históiria</td>
+        <td class="editavel" data-id="AD2T_s">Sociologia</td>
+        <td class="editavel" data-id="AD2T_d">Arte</td>
+        <td class="editavel" data-id="AD2T_f">Educação Ambiental</td>
+        <td class="editavel" data-id="AD2T_g">Português</td>
+      </tr>
+      <tr>
+        <td >15:20 - 16:00</td>
+        <td class="editavel" data-id="AD2T_h">Históiria</td>
+        <td class="editavel" data-id="AD2T_j">Organização Sist.</td>
+        <td class="editavel" data-id="AD2T_k">Ed. Física</td>
+        <td class="editavel" data-id="AD2T_0"></td>
+        <td class="editavel" data-id="AD2T_l">Português</td>
+      </tr>
+      <tr class="intervalo">
+        <td colspan="6">16:00 - 16:15 (Intervalo)</td>
+      </tr>
+      <tr>
+        <td >16:15 - 16:55</td>
+        <td class="editavel" data-id="AD2T_z">Biologia</td>
+        <td class="editavel" data-id="AD2T_x">Organização Sist.</td>
+        <td class="editavel" data-id="AD2T_c">Física</td>
+        <td class="editavel" data-id="AD2T_v"></td>
+        <td class="editavel" data-id="AD2T_b"></td>
+      </tr>
+      <tr>
+        <td >16:55 - 17:35</td>
+        <td class="editavel" data-id="AD2T_n">Biologia</td>
+        <td class="editavel" data-id="AD2T_m">Filosofia</td>
+        <td class="editavel" data-id="AD2T_1">Física</td>
+        <td class="editavel" data-id="AD2T_2">Química</td>
+        <td class="editavel" data-id="AD2T_3"></td>
+      </tr>
+      <tr>
+        <td >17:35 - 18:15</td>
+        <td class="editavel" data-id="AD2T_4">Inglês</td>
+        <td class="editavel" data-id="AD2T_5">Proj. Vida</td>
+        <td class="editavel" data-id="AD2T_6">Química</td>
+        <td class="editavel" data-id="AD2T_7"></td>
+        <td class="editavel" data-id="AD2T_8"></td>
+      </tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+    
+</body>
+</html>

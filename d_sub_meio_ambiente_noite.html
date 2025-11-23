@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+ <link rel="stylesheet" href="hora.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body data-turma="MANS">
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>19:00 - 19:35 </td>
+        <td class="editavel" data-id="MANS_q">IAI</td>
+        <td class="editavel" data-id="MANS_w">Microbiologia</td>
+        <td class="editavel" data-id="MANS_e">Geo. Ambiental</td>
+        <td class="editavel" data-id="MANS_r">Climatologia</td>
+        <td class="editavel" data-id="MANS_t">Informática</td>
+      </tr>
+      <tr>
+        <td>19:35 - 20:10</td>
+        <td class="editavel" data-id="MANS_y">AIA</td>
+        <td class="editavel" data-id="MANS_u">Microbiologia</td>
+        <td class="editavel" data-id="MANS_i">Geo. Ambiental</td>
+        <td class="editavel" data-id="MANS_o">Climatologia</td>
+        <td class="editavel" data-id="MANS_p">Informática</td>
+      </tr>
+      <tr>
+        <td>20:10 - 20:45</td>
+        <td class="editavel" data-id="MANS_a">Projeto Int.</td>
+        <td class="editavel" data-id="MANS_s">Microbiologia</td>
+        <td class="editavel" data-id="MANS_d">Agroecologia</td>
+        <td class="editavel" data-id="MANS_f">Climatologia</td>
+        <td class="editavel" data-id="MANS_g">VSSA.</td>
+      </tr>
+      <tr>
+        <td>20:45 - 21:20</td>
+        <td class="editavel" data-id="MANS_h">Conservação</td>
+        <td class="editavel" data-id="MANS_j">P. Degradação Amb.</td>
+        <td class="editavel" data-id="MANS_k">Agroecologia</td>
+        <td class="editavel" data-id="MANS_l">Gest. de Res. Sol.</td>
+        <td class="editavel" data-id="MANS_z">VSSA.</td>
+      </tr>
+      <tr>
+        <td>21:20 - 21:55</td>
+        <td class="editavel" data-id="MANS_x">Conservação</td>
+        <td class="editavel" data-id="MANS_c">P. Degradação Amb.</td>
+        <td class="editavel" data-id="MANS_v"></td>
+        <td class="editavel" data-id="MANS_b">Gest. de Res. Sol.</td>
+        <td class="editavel" data-id="MANS_n">VSSA.</td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+  
+</body>
+</html>

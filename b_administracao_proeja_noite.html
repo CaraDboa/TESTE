@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+  <link rel="stylesheet" href="hora.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body data-turma="AD2N">
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>19:00 - 19:35</td>
+        <td class="editavel" data-id="AD2N_q">Educação Física</td>
+        <td class="editavel" data-id="AD2N_w">Física</td>
+        <td class="editavel" data-id="AD2N_e">Artes</td>
+        <td class="editavel" data-id="AD2N_r">Sociologia</td>
+        <td class="editavel" data-id="AD2N_t">Economia Mercado</td>
+      </tr>
+      <tr>
+        <td>19:35 - 20:10</td>
+        <td class="editavel" data-id="AD2N_y">Estatística Apli</td>
+        <td class="editavel" data-id="AD2N_u">Geografia</td>
+        <td class="editavel" data-id="AD2N_i">Biologia</td>
+        <td class="editavel" data-id="AD2N_o">Inglês</td>
+        <td class="editavel" data-id="AD2N_p">Economia Mercado</td>
+      </tr>
+      <tr>
+        <td>20:10 - 20:45</td>
+        <td class="editavel" data-id="AD2N_a">Estatística Apli</td>
+        <td class="editavel" data-id="AD2N_s">Português</td>
+        <td class="editavel" data-id="AD2N_d">Fundamentos ADM</td>
+        <td class="editavel" data-id="AD2N_f">Química</td>
+        <td class="editavel" data-id="AD2N_g">História</td>
+      </tr>
+      <tr>
+        <td>20:45 - 21:20</td>
+        <td class="editavel" data-id="AD2N_g">Edu Amb Sust Clima</td>
+        <td class="editavel" data-id="AD2N_h">Português</td>
+        <td class="editavel" data-id="AD2N_j">Fundamentos ADM</td>
+        <td class="editavel" data-id="AD2N_k">Matemática</td>
+        <td class="editavel" data-id="AD2N_l">História</td>
+      </tr>
+      <tr>
+        <td>21:20 - 21:55</td>
+        <td class="editavel" data-id="AD2N_z">Projeto De Vida</td>
+        <td class="editavel" data-id="AD2N_x">Informática</td>
+        <td class="editavel" data-id="AD2N_c">Fundamentos ADM</td>
+        <td class="editavel" data-id="AD2N_v">Matemática</td>
+        <td class="editavel" data-id="AD2N_b"></td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+    
+</body>
+</html>

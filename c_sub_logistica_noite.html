@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+  <link rel="stylesheet" href="hora.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body data-turma="LO3N">
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>19:00 - 19:35</td>
+        <td class="editavel" data-id="LO3N_q">Saúde e Seg TR</td>
+        <td class="editavel" data-id="LO3N_w">Estatistica APLIC</td>
+        <td class="editavel" data-id="LO3N_e">Gestão de CUST</td>
+        <td class="editavel" data-id="LO3N_r">Gestão de TRANS</td>
+        <td class="editavel" data-id="LO3N_t">Projeto int</td>
+      </tr>
+      <tr>
+        <td>19:35 - 20:10</td>
+        <td class="editavel" data-id="LO3N_y">Saúde e Seg TR</td>
+        <td class="editavel" data-id="LO3N_u">Estatistica APLIC</td>
+        <td class="editavel" data-id="LO3N_i">Gestão de CUST</td>
+        <td class="editavel" data-id="LO3N_o">Gestão de TRANS</td>
+        <td class="editavel" data-id="LO3N_p">Projeto int</td>
+      </tr>
+      <tr>
+        <td>20:10 - 20:45</td>
+        <td class="editavel" data-id="LO3N_a">Espanhol</td>
+        <td class="editavel" data-id="LO3N_s">Gestão de Pess</td>
+        <td class="editavel" data-id="LO3N_d">Gestão de CUST</td>
+        <td class="editavel" data-id="LO3N_f">Gestão de TRANS</td>
+        <td class="editavel" data-id="LO3N_g">Tecnologia</td>
+      </tr>
+      <tr>
+        <td>20:45 - 21:20</td>
+        <td class="editavel" data-id="LO3N_h">Espanhol</td>
+        <td class="editavel" data-id="LO3N_j">Gestão de Pess</td>
+        <td class="editavel" data-id="LO3N_k">Legislação APLI</td>
+        <td class="editavel" data-id="LO3N_l">Gestão de DISTR</td>
+        <td class="editavel" data-id="LO3N_z">Tecnologia</td>
+      </tr>
+      <tr>
+        <td>21:20 - 21:55</td>
+        <td class="editavel" data-id="LO3N_x"></td>
+        <td class="editavel" data-id="LO3N_c">Gestão de Pess</td>
+        <td class="editavel" data-id="LO3N_v">Legislação APLI</td>
+        <td class="editavel" data-id="LO3N_b">Gestão de DISTR</td>
+        <td class="editavel" data-id="LO3N_n">Tecnologia</td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+    
+</body>
+</html>

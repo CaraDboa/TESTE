@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+    <link rel="stylesheet" href="hora.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>13:20 - 14:00</td>
+        <td class="editavel" data-id="QI1T_q">Matemática</td>
+        <td class="editavel" data-id="QI1T_w">Geografia</td>
+        <td class="editavel" data-id="QI1T_e">História</td>
+        <td class="editavel" data-id="QI1T_r">Química Geral</td>
+        <td class="editavel" data-id="QI1T_t">Educação Física</td>
+      </tr>
+      <tr>
+        <td>14:00 - 14:40</td>
+        <td class="editavel" data-id="QI1T_y">Matemática</td>
+        <td class="editavel" data-id="QI1T_u">Geografia</td>
+        <td class="editavel" data-id="QI1T_i">História</td>
+        <td class="editavel" data-id="QI1T_o">Química Geral</td>
+        <td class="editavel" data-id="QI1T_p">Projeto de Vida</td>
+      </tr>
+      <tr>
+        <td>14:40 - 15:20</td>
+        <td class="editavel" data-id="QI1T_a">Inglês</td>
+        <td class="editavel" data-id="QI1T_s">Física</td>
+        <td class="editavel" data-id="QI1T_d">Microbiologia</td>
+        <td class="editavel" data-id="QI1T_f">Português</td>
+        <td class="editavel" data-id="QI1T_g"></td>
+      </tr>
+      <tr>
+        <td>15:20 - 16:00</td>
+        <td class="editavel" data-id="QI1T_h">Artes</td>
+        <td class="editavel" data-id="QI1T_j">Física</td>
+        <td class="editavel" data-id="QI1T_k">Microbiologia</td>
+        <td class="editavel" data-id="QI1T_l">Português</td>
+        <td class="editavel" data-id="QI1T_z">Química Inorgânica</td>
+      </tr>
+      <tr class="intervalo">
+        <td colspan="6">16:00 - 16:15 (Intervalo)</td>
+      </tr>
+      <tr>
+        <td>16:15 - 16:55</td>
+        <td class="editavel" data-id="QI1T_x">Processos Químicos de Laboratório</td>
+        <td class="editavel" data-id="QI1T_c">Química</td>
+        <td class="editavel" data-id="QI1T_v">Português</td>
+        <td class="editavel" data-id="QI1T_b">Português</td>
+        <td class="editavel" data-id="QI1T_n">Química Inorgânica</td>
+      </tr>
+      <tr>
+        <td>16:55 - 17:35</td>
+        <td class="editavel" data-id="QI1T_m">Processos Químicos de Laboratório</td>
+        <td class="editavel" data-id="QI1T_1">Química</td>
+        <td class="editavel" data-id="QI1T_2">Biologia</td>
+        <td class="editavel" data-id="QI1T_3">Filosofia</td>
+        <td class="editavel" data-id="QI1T_4">Sociologia</td>
+      </tr>
+      <tr>
+        <td>17:35 - 18:15</td>
+        <td class="editavel" data-id="QI1T_5"></td>
+        <td class="editavel" data-id="QI1T_6"></td>
+        <td class="editavel" data-id="QI1T_7">Biologia</td>
+        <td class="editavel" data-id="QI1T_8">Edição Ambiental</td>
+        <td class="editavel" data-id="QI1T_9">Matemática</td>
+      </tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+      
+</body>
+</html>

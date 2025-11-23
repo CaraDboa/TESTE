@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+  <link rel="stylesheet" href="hora.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">.+
+</head>
+<body data-turma="MA1M">
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>7:20 - 8:00</td>
+        <td class="editavel" data-id="MA1M_q">Fisica</td>
+        <td class="editavel" data-id="MA1M_w">Fisica</td>
+        <td class="editavel" data-id="MA1M_e">Geografia</td>
+        <td class="editavel" data-id="MA1M_r">Química</td>
+        <td class="editavel" data-id="MA1M_t">Filosofia</td>
+      </tr>
+      <tr>
+        <td>8:00 - 8:40</td>
+        <td class="editavel" data-id="MA1M_y"></td>
+        <td class="editavel" data-id="MA1M_u">Física</td>
+        <td class="editavel" data-id="MA1M_i">Geografia Ambi.</td>
+        <td class="editavel" data-id="MA1M_o">Química</td>
+        <td class="editavel" data-id="MA1M_p">Projeto de Vida</td>
+      </tr>
+      <tr>
+        <td>8:40 - 9:20</td>
+        <td class="editavel" data-id="MA1M_a">Matemática</td>
+        <td class="editavel" data-id="MA1M_s">Sociologia</td>
+        <td class="editavel" data-id="MA1M_d"></td>
+        <td class="editavel" data-id="MA1M_f">Português</td>
+        <td class="editavel" data-id="MA1M_g">Matemática</td>
+      </tr>
+      <tr>
+        <td>9:20 - 10:00</td>
+        <td class="editavel" data-id="MA1M_h">História</td>
+        <td class="editavel" data-id="MA1M_j">português</td>
+        <td class="editavel" data-id="MA1M_k">Inglês</td>
+        <td class="editavel" data-id="MA1M_l">Gestão Ambiental</td>
+        <td class="editavel" data-id="MA1M_z">Matemática</td>
+      </tr>
+      <tr class="intervalo">
+        <td colspan="6">10:00 - 10:15 (Intervalo)</td>
+      </tr>
+      <tr>
+        <td>10:15 - 10:55</td>
+        <td class="editavel" data-id="MA1M_x">História</td>
+        <td class="editavel" data-id="MA1M_c">Português</td>
+        <td class="editavel" data-id="MA1M_v">Biologia</td>
+        <td class="editavel" data-id="MA1M_b">Gestão Ambiental</td>
+        <td class="editavel" data-id="MA1M_n"></td>
+      </tr>
+      <tr>
+        <td>10:55 - 11:35</td>
+        <td class="editavel" data-id="MA1M_m">Arte</td>
+        <td class="editavel" data-id="MA1M_1">Geografia</td>
+        <td class="editavel" data-id="MA1M_2">Educação Ambiental</td>
+        <td class="editavel" data-id="MA1M_3">Política Gest. Amb.</td>
+        <td class="editavel" data-id="MA1M_4">Port. Aplicado</td>
+      </tr>
+      <tr>
+        <td>11:35 - 12:15</td>
+        <td class="editavel" data-id="MA1M_5">Matemática</td>
+        <td class="editavel" data-id="MA1M_7">Geografia</td>
+        <td class="editavel" data-id="MA1M_8">Português</td>
+        <td class="editavel" data-id="MA1M_9">Biologia</td>
+        <td class="editavel" data-id="MA1M_0"></td>
+      </tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+    
+</body>
+</html>

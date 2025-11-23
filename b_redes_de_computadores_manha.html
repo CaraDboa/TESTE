@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+  <link rel="stylesheet" href="hora.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body data-turma="RC2M">
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>7:20 - 8:00</td>
+        <td class="editavel" data-id="RC2M_q"></td>
+        <td class="editavel" data-id="RC2M_w">História</td>
+        <td class="editavel" data-id="RC2M_e"></td>
+        <td class="editavel" data-id="RC2M_r">Português</td>
+        <td class="editavel" data-id="RC2M_t"></td>
+      </tr>
+      <tr>
+        <td>8:00 - 8:40</td>
+        <td class="editavel" data-id="RC2M_y">Arte</td>
+        <td class="editavel" data-id="RC2M_u">História</td>
+        <td class="editavel" data-id="RC2M_i">Português</td>
+        <td class="editavel" data-id="RC2M_o">Português</td>
+        <td class="editavel" data-id="RC2M_p"></td>
+      </tr>
+      <tr>
+        <td>8:40 - 9:20</td>
+        <td class="editavel" data-id="RC2M_a">Matemática</td>
+        <td class="editavel" data-id="RC2M_s">Biologia</td>
+        <td class="editavel" data-id="RC2M_d">Sociologia</td>
+        <td class="editavel" data-id="RC2M_f">Projeto Integrador</td>
+        <td class="editavel" data-id="RC2M_g">Matemática</td>
+      </tr>
+      <tr>
+        <td>9:20 - 10:00</td>
+        <td class="editavel" data-id="RC2M_h">Matemática</td>
+        <td class="editavel" data-id="RC2M_j">Biologia</td>
+        <td class="editavel" data-id="RC2M_k">Projeto de Vida</td>
+        <td class="editavel" data-id="RC2M_l">Filosofia</td>
+        <td class="editavel" data-id="RC2M_z">Matemática</td>
+      </tr>
+      <tr class="intervalo">
+        <td colspan="6">16:00 - 16:15 (Intervalo)</td>
+      </tr>
+      <tr>
+        <td>10:15 - 10:55</td>
+        <td class="editavel" data-id="RC2M_x">Legislação Aplicada</td>
+        <td class="editavel" data-id="RC2M_c">Inglês</td>
+        <td class="editavel" data-id="RC2M_v">Geografia</td>
+        <td class="editavel" data-id="RC2M_b">Ed.Física</td>
+        <td class="editavel" data-id="RC2M_n">Português</td>
+      </tr>
+      <tr>
+        <td>10:55 - 11:35</td>
+        <td class="editavel" data-id="RC2M_m">Rede de Comp. III</td>
+        <td class="editavel" data-id="RC2M_1">Química</td>
+        <td class="editavel" data-id="RC2M_2">Geografia</td>
+        <td class="editavel" data-id="RC2M_3">Física</td>
+        <td class="editavel" data-id="RC2M_4">adm. Redes III</td>
+      </tr>
+      <tr>
+        <td>11:35 - 12:15</td>
+        <td class="editavel" data-id="RC2M_5">Rede de Comp. III</td>
+        <td class="editavel" data-id="RC2M_6">Química</td>
+        <td class="editavel" data-id="RC2M_7"></td>
+        <td class="editavel" data-id="RC2M_8">Física</td>
+        <td class="editavel" data-id="RC2M_9">adm. Redes III</td>
+      </tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+    
+</body>
+</html>

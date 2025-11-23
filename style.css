@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Badeen+Display&family=Momo+Trust+Display&display=swap');
+body {
+    margin: 0;
+}
+body * {
+    box-sizing: border-box;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+     background: linear-gradient(to bottom, #0f009744, #08007c);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.left-login > h1{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+
+.right-login{
+     width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+
+}
+
+.card-login > h1 {
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    margin: 0;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: transparent;
+    color: #8d0000de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color : black;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #000000;
+}
+
+.texto-sobre-img {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 70%;                /* não fica espalhado demais */
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    z-index: 2;
+
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000000;
+    background: #1100ff;
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #1100ff;
+    transition: 0,10s;
+}
+
+.left-login-image{
+    width: 35vw;
+    align-items: center;
+}
+
+.left-login-image-logo{
+     width: 10vw;
+    align-items: center;
+}
+
+
+    
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .left-login-image{
+        width: 50vw;
+    }
+
+    .right-login{
+         width: 100%;
+        height: auto;
+    }
+    .texto-sobre-img{
+          width: 100%;
+        height: auto;
+    
+    }
+    .login{
+        width: 100%;
+        height: auto;
+    }
+}   
+@import url('https://fonts.googleapis.com/css2?family=Badeen+Display&family=Momo+Trust+Display&display=swap');
+body {
+ background: linear-gradient(to bottom, #0f009744, #08007c);
+  background-attachment: fixed;
+  margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+   background:#ffffff;
+  padding: 30px;
+  margin: 40px auto; /* centraliza e cria espaço entre as caixas */
+  width: 90%;
+  max-width: 650px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 15px rgba(0,0,0,0.12);
+  animation: fadeIn 0.3s ease;
+}
+
+.image{
+  width: 20vw;
+  margin-top: 10px;
+}
+
+.logo {
+    width: 15vw;
+    align-items: center;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.botoes-turmas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #d54242;
+  color: rgb(255, 231, 231);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.05s;
+  box-shadow: 0px 10px 40px #9e000056;
+
+}
+
+button:hover {
+  background: #003efa;
+  transition: 0,05s;
+}
+
+.login-area {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+} 
+
+.left-horario{
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    margin: 0;
+    
+}
+    
+@media only screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+    .left-horario > h1{
+        display: none;
+
+    }
+
+    .container{
+        width: 85%;
+        height: auto;
+    }
+    .logo{
+          width: 100%;
+        height: auto;
+    }
+
+    buttun {
+        flex-direction: column;
+    
+    }
+}

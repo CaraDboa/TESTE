@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+  <link rel="stylesheet" href="hora.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body data-turma="ST1M">
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>7:20 - 8:00</td>
+        <td class="editavel" data-id="ST1M_q">Química</td>
+        <td class="editavel" data-id="ST1M_w">Biologia</td>
+        <td class="editavel" data-id="ST1M_e">Sociologia</td>
+        <td class="editavel" data-id="ST1M_r">Filosofia</td>
+        <td class="editavel" data-id="ST1M_t">Informática Aplicada</td>
+      </tr>
+      <tr>
+        <td>8:00 - 8:40</td>
+        <td class="editavel" data-id="ST1M_y">Química</td>
+        <td class="editavel" data-id="ST1M_u">Biologia</td>
+        <td class="editavel" data-id="ST1M_i">Projeto de Vida</td>
+        <td class="editavel" data-id="ST1M_o">Educação Física</td>
+        <td class="editavel" data-id="ST1M_p">Informática Aplicada</td>
+      </tr>
+      <tr>
+        <td>8:40 - 9:20</td>
+        <td class="editavel" data-id="ST1M_a">Arte</td>
+        <td class="editavel" data-id="ST1M_s">História</td>
+        <td class="editavel" data-id="ST1M_d">Português</td>
+        <td class="editavel" data-id="ST1M_f">Matemática</td>
+        <td class="editavel" data-id="ST1M_g">Matemática</td>
+      </tr>
+      <tr>
+        <td>9:20 - 10:00</td>
+        <td class="editavel" data-id="ST1M_h">Física</td>
+        <td class="editavel" data-id="ST1M_j">História</td>
+        <td class="editavel" data-id="ST1M_k">Leg. Nor. Seg. Trabalho</td>
+        <td class="editavel" data-id="ST1M_l">Matemática</td>
+        <td class="editavel" data-id="ST1M_z">Matemática</td>
+      </tr>
+      <tr class="intervalo">
+        <td colspan="6">10:00 - 10:15 (Intervalo)</td>
+      </tr>
+      <tr>
+        <td>10:15 - 10:55</td>
+        <td class="editavel" data-id="ST1M_x">Física</td>
+        <td class="editavel" data-id="ST1M_c">Geografia</td>
+        <td class="editavel" data-id="ST1M_v">Leg. Nor. Seg. Trabalho</td>
+        <td class="editavel" data-id="ST1M_b">Prev. Combat. Sinistro</td>
+        <td class="editavel" data-id="ST1M_n">Port. Aplicado</td>
+      </tr>
+      <tr>
+        <td>10:55 - 11:35</td>
+        <td class="editavel" data-id="ST1M_m">Prev. Contr. Perdas</td>
+        <td class="editavel" data-id="ST1M_1">Geografia</td>
+        <td class="editavel" data-id="ST1M_2">Leg. Nor. Seg. Trabalho</td>
+        <td class="editavel" data-id="ST1M_3"></td>
+        <td class="editavel" data-id="ST1M_4">Português</td>
+      </tr>
+      <tr>
+        <td>11:35 - 12:15</td>
+        <td class="editavel" data-id="ST1M_5">Prev. Contr. Perdas</td>
+        <td class="editavel" data-id="ST1M_6">Inglês</td>
+        <td class="editavel" data-id="ST1M_7"></td>
+        <td class="editavel" data-id="ST1M_8">Português</td>
+        <td class="editavel" data-id="ST1M_9">Português</td>
+      </tr>
+    </tbody>
+  </table>
+  
+<script src="main.js"></script>
+    
+</body>
+</html>

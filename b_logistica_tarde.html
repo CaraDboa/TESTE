@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>HORÁRIO DE AULAS EETEPA</title>
+  <link rel="stylesheet" href="hora.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body data-turma="LO2T">
+  <img src="logo.png" alt="Logo EETEPA">
+  <h1>HORÁRIO DE AULAS EETEPA</h1>
+
+  <div class="painel-botoes">
+    <button data-cor="vermelho">🔴 Não vem</button>
+    <button data-cor="amarelo">🟡 Esperando conclusão</button>
+    <button data-cor="nenhum">❌ Limpar</button>
+  </div>
+
+  <div id="mensagem"></div>
+
+  <table id="tabelaHorarios">
+    <thead>
+      <tr>
+        <th>Horário</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>13:20 - 14:00</td>
+        <td class="editavel" data-id="LO2T_q">Química</td>
+        <td class="editavel" data-id="LO2T_w">Geografia</td>
+        <td class="editavel" data-id="LO2T_e">Português</td>
+        <td class="editavel" data-id="LO2T_r">Filosofia</td>
+        <td class="editavel" data-id="LO2T_t">Física</td>
+      </tr>
+      <tr>
+        <td>14:00 - 14:40</td>
+        <td class="editavel" data-id="LO2T_y">Química</td>
+        <td class="editavel" data-id="LO2T_u">Geografia</td>
+        <td class="editavel" data-id="LO2T_i">Português</td>
+        <td class="editavel" data-id="LO2T_o">Educação Ambiental</td>
+        <td class="editavel" data-id="LO2T_p">Física</td>
+      </tr>
+      <tr>
+        <td>14:40 - 15:20</td>
+        <td class="editavel" data-id="LO2T_a">Biologia</td>
+        <td class="editavel" data-id="LO2T_s">História</td>
+        <td class="editavel" data-id="LO2T_d">Inglês</td>
+        <td class="editavel" data-id="LO2T_f">Matemática</td>
+        <td class="editavel" data-id="LO2T_g">Projeto de Vida</td>
+      </tr>
+      <tr>
+        <td>15:20 - 16:00</td>
+        <td class="editavel" data-id="LO2T_h">Biologia</td>
+        <td class="editavel" data-id="LO2T_j">História</td>
+        <td class="editavel" data-id="LO2T_k">Matemática</td>
+        <td class="editavel" data-id="LO2T_l">Matemática</td>
+        <td class="editavel" data-id="LO2T_z">Educação Física</td>
+      </tr>
+      <tr class="intervalo">
+        <td colspan="6">16:00 - 16:15 (Intervalo)</td>
+      </tr>
+      <tr>
+        <td>16:15 - 16:55</td>
+        <td class="editavel" data-id="LO2T_x"></td>
+        <td class="editavel" data-id="LO2T_c">Sociologia</td>
+        <td class="editavel" data-id="LO2T_v">Matemática</td>
+        <td class="editavel" data-id="LO2T_b"></td>
+        <td class="editavel" data-id="LO2T_n">Português</td>
+      </tr>
+      <tr>
+        <td>16:55 - 17:35</td>
+        <td class="editavel" data-id="LO2T_m"></td>
+        <td class="editavel" data-id="LO2T_1">Logística II</td>
+        <td class="editavel" data-id="LO2T_2">Arte</td>
+        <td class="editavel" data-id="LO2T_3"></td>
+        <td class="editavel" data-id="LO2T_4">Português</td>
+      </tr>
+      <tr>
+        <td>17:35 - 18:15</td>
+        <td class="editavel" data-id="LO2T_5"></td>
+        <td class="editavel" data-id="LO2T_6">Logística II</td>
+        <td class="editavel" data-id="LO2T_7"></td>
+        <td class="editavel" data-id="LO2T_8"></td>
+        <td class="editavel" data-id="LO2T_9"></td>
+      </tr>
+    </tbody>
+  </table>
+
+<script src="main.js"></script>
+    
+</body>
+</html>
